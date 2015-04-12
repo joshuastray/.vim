@@ -1,12 +1,31 @@
 syntax enable
 colorscheme molokai
-let g:molokai_original = 1
+"let g:molokai_original = 1
 let g:rehash256 = 1
 
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 set nu!
+set incsearch
+set hlsearch
+set showmatch
+
+set mouse=a
+set selection=exclusive
+set selectmode=mouse,key
+
+set guioptions=m " 关闭菜单栏
+set guioptions=t " 关闭工具栏
+set guioptions-=L " 启动左边的滚动条
+set guioptions-=r " 启动右边的滚动条
+set guioptions-=b " 启动下边的滚动条
+set clipboard+=unnamed " 共享剪贴板
 
 map <f8> :NERDTreeToggle<CR>
 
+
+" Vundle begin
 set nocompatible              " be iMproved, required
 filetype off                  " required
 

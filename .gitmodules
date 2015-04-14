@@ -6,7 +6,7 @@
 	url = https://github.com/gmarik/Vundle.vim.git
 [submodule "bundle/calendar.vim"]
 	path = bundle/calendar.vim
-	url = ../../itchyny/calendar.vim.git
+	url = https://github.com/itchyny/calendar.vim.git
 [submodule "bundle/vim-matrix-screensaver"]
 	path = bundle/vim-matrix-screensaver
 	url = https://github.com/uguu-org/vim-matrix-screensaver.git

@@ -39,6 +39,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'itchyny/calendar.vim'
+Plugin 'uguu-org/vim-matrix-screensaver'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
